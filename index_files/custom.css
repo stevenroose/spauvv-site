@@ -58,7 +58,7 @@ h3 {color:#ee3224;font-size:0.81em;margin:0 0 5px 0;font-weight:normal;}
 h4{font-size: 0.68em;font-weight: bold;margin:0 0 5px 0;}
 
 /*** spans ***/
-span.info {font-weight:bold;font-size:0.68em;color:#999999;margin:0 0 0 5px;background:url(../images/info.png) no-repeat left;padding:0 0 0 20px;}
+span.info {font-weight:bold;font-size:0.68em;color:#999999;margin:0 0 0 5px;background:url(images/info.png) no-repeat left;padding:0 0 0 20px;}
 
 /*** other tags ***/
 p{margin: 5px 0;font-size:0.75em;}
@@ -69,8 +69,8 @@ a{border: 0px;color:#000000;}
 	/* a classes */
 	.facet_link{color:black;margin-top:5px;text-decoration:none;}
 /*PABVV-510: added display:block;*/
-	.arrow {font-size:0.75em;background: url(../images/minisitemap_bullet_lv1.gif) no-repeat left 6px;padding:3px 0 0 23px;}
-	.downloadpdf{font-size:0.75em; background: url(../images/pdf2.png) no-repeat left 6px; padding:7px 0 0 23px;}
+	.arrow {font-size:0.75em;background: url(images/minisitemap_bullet_lv1.gif) no-repeat left 6px;padding:3px 0 0 23px;}
+	.downloadpdf{font-size:0.75em; background: url(images/pdf2.png) no-repeat left 6px; padding:7px 0 0 23px;}
 
 	/* htag in a */
 	.h3_a{font-size: 1.0em;font-weight: bold;margin-bottom: 0px;margin-top: 5px;text-decoration:none;color: #ee3224;}
@@ -95,7 +95,7 @@ ul li{padding: 0px;background: url('images/bullet.gif') no-repeat left;backgroun
 	ul.regular_list span.title a{text-decoration:none;}
 	ul.regular_list span.title a:hover{text-decoration:none;color:#ee3224;}
 
-	ul.regular_list span.date{font-size:0.75em;background:url("../images/calendar_icon.jpg") no-repeat scroll left center transparent;padding-left:15px;display:block;float:right;width:65px;text-align:left;}
+	ul.regular_list span.date{font-size:0.75em;background:url("images/calendar_icon.jpg") no-repeat scroll left center transparent;padding-left:15px;display:block;float:right;width:65px;text-align:left;}
 
 
 	/* spans in lists */
@@ -119,20 +119,20 @@ div.lfr-dock-list-container ul li {background:none;}
 .pushbutton_title{font-size: 0.7em;}
 .pushbutton_sub_title{font-size: 0.6em;}
 
-.whitearrow-button{height:19px;background:url(../images/whitearrow-redbutton-filler.jpg) repeat-x top left;}
-.whitearrow-button span.left {background:url("../images/whitearrow-redbutton-left.jpg") no-repeat scroll left top transparent;display:block;float:left;height:19px;width:5px;}
-.whitearrow-button span.title {display:block;float:left;color:#ffffff;padding:1px 40px 2px 10px;background:url(../images/whitesmallarrow.jpg) no-repeat center right;font-size:0.81em;font-weight:bold;font-style:italic;cursor:pointer;}
-.whitearrow-button span.right {background:url(../images/whitearrow-redbutton-right.jpg) no-repeat scroll left top transparent;display:block;height:19px;width:5px;float:right;}
-.whitearrow-button.stepback{height:19px;background:url(../images/whitearrow-greybutton-filler.png) repeat-x top left;}
-.whitearrow-button.stepback span.left {background:url("../images/whitearrow-greybutton-left.png") no-repeat scroll left top transparent;display:block;float:left;height:19px;width:5px;}
-.whitearrow-button.stepback span.title {display:block;float:left;color:#ffffff;padding:2px 40px 2px 10px;background:url(../images/greysmallarrow.png) no-repeat center right;font-size:0.75em;font-weight:bold;font-style:italic;cursor:pointer;}
-.whitearrow-button.stepback span.right {background:url(../images/whitearrow-greybutton-right.png) no-repeat scroll left top transparent;display:block;height:19px;width:5px;float:right;}
+.whitearrow-button{height:19px;background:url(images/whitearrow-redbutton-filler.jpg) repeat-x top left;}
+.whitearrow-button span.left {background:url("images/whitearrow-redbutton-left.jpg") no-repeat scroll left top transparent;display:block;float:left;height:19px;width:5px;}
+.whitearrow-button span.title {display:block;float:left;color:#ffffff;padding:1px 40px 2px 10px;background:url(images/whitesmallarrow.jpg) no-repeat center right;font-size:0.81em;font-weight:bold;font-style:italic;cursor:pointer;}
+.whitearrow-button span.right {background:url(images/whitearrow-redbutton-right.jpg) no-repeat scroll left top transparent;display:block;height:19px;width:5px;float:right;}
+.whitearrow-button.stepback{height:19px;background:url(images/whitearrow-greybutton-filler.png) repeat-x top left;}
+.whitearrow-button.stepback span.left {background:url("images/whitearrow-greybutton-left.png") no-repeat scroll left top transparent;display:block;float:left;height:19px;width:5px;}
+.whitearrow-button.stepback span.title {display:block;float:left;color:#ffffff;padding:2px 40px 2px 10px;background:url(images/greysmallarrow.png) no-repeat center right;font-size:0.75em;font-weight:bold;font-style:italic;cursor:pointer;}
+.whitearrow-button.stepback span.right {background:url(images/whitearrow-greybutton-right.png) no-repeat scroll left top transparent;display:block;height:19px;width:5px;float:right;}
 .whitearrow-button.maxsize {max-width:200px;}
 .whitearrow-button.maxsize span.title {font-size:0.87em;padding:1px 40px 0px 10px;min-width:130px;}
-.whitearrow-button:hover{background:url(../images/redarrow-whitebutton-filler.png) repeat-x top left;}
-.whitearrow-button:hover span.left {background:url(../images/redarrow-whitebutton-left.png) no-repeat scroll left top transparent;}
-.whitearrow-button:hover span.title {display:block;float:left;color:#ee3224;padding:2px 40px 2px 10px;background:url(../images/whitesmallarrow.png) no-repeat center right;}
-.whitearrow-button:hover span.right {background:url(../images/redarrow-whitebutton-right.png) no-repeat scroll left top transparent;}
+.whitearrow-button:hover{background:url(images/redarrow-whitebutton-filler.png) repeat-x top left;}
+.whitearrow-button:hover span.left {background:url(images/redarrow-whitebutton-left.png) no-repeat scroll left top transparent;}
+.whitearrow-button:hover span.title {display:block;float:left;color:#ee3224;padding:2px 40px 2px 10px;background:url(images/whitesmallarrow.png) no-repeat center right;}
+.whitearrow-button:hover span.right {background:url(images/redarrow-whitebutton-right.png) no-repeat scroll left top transparent;}
 .whitearrow-button.maxsize:hover span.title {font-size:0.87em;padding:1px 40px 0px 10px;min-width:130px;}
 
 
@@ -182,10 +182,10 @@ div.lfr-dock-list-container ul li {background:none;}
 #overview-container #overview-list #main span.rss {padding:0 0 0 5px;}
 #overview-container #overview-list div.searchoverview span.location{color:#999999;font-size:0.75em;}
 #overview-container #overview-list div.searchoverview table tr.action td p.intro{margin-bottom:15px;}
-#overview-container #overview-list div.searchoverview div.action_date{padding:5px 0 0 0;margin:0 10px 0 0;background:url(../images/clock-gradient.png) no-repeat top left;width:67px;height:76px;}
+#overview-container #overview-list div.searchoverview div.action_date{padding:5px 0 0 0;margin:0 10px 0 0;background:url(images/clock-gradient.png) no-repeat top left;width:67px;height:76px;}
 #overview-container #overview-list div.searchoverview div.action_date span.action_day{display:block;color:#ee3224;font-size:1.5em;font-weight:bold;}
 #overview-container #overview-list div.searchoverview div.action_date span.action_month{color:#ee3224;font-size:0.68em;font-weight:bold;}
-#overview-container #overview-list div.searchoverview #time span.clock {font-size:0.75em;background:url(../images/clock.png) no-repeat left;padding:1px 0 0 16px;color:#999999;font-style:italic;}
+#overview-container #overview-list div.searchoverview #time span.clock {font-size:0.75em;background:url(images/clock.png) no-repeat left;padding:1px 0 0 16px;color:#999999;font-style:italic;}
 
 
 /* LEFTNAVIGATION */
@@ -204,8 +204,8 @@ div.lfr-dock-list-container ul li {background:none;}
 #leftnavigation ul.mini_sitemap_ul_lv1 li{padding:0 0 6px 20px;}
 #leftnavigation ul.mini_sitemap_ul_lv2 {margin-top:3px;}
 #leftnavigation ul.mini_sitemap_ul_lv2 li{padding:1px 0 6px 15px;line-height:1.2em;}
-#leftnavigation ul.mini_sitemap_ul_lv1 li.active {background: url(../images/minisitemap_bullet_lv1.gif) no-repeat top left;list-style-type: none;color:#ee3224;}
-#leftnavigation ul.mini_sitemap_ul_lv2 li.active {background: url(../images/minisitemap_bullet_lv2.gif) no-repeat left;list-style-type: none;color:#ee3224; background-position: 0px 3px;}
+#leftnavigation ul.mini_sitemap_ul_lv1 li.active {background: url(images/minisitemap_bullet_lv1.gif) no-repeat top left;list-style-type: none;color:#ee3224;}
+#leftnavigation ul.mini_sitemap_ul_lv2 li.active {background: url(images/minisitemap_bullet_lv2.gif) no-repeat left;list-style-type: none;color:#ee3224; background-position: 0px 3px;}
 #leftnavigation ul.mini_sitemap_ul_lv1 li.active a.active{color:#ee3224;}
 #leftnavigation ul.mini_sitemap_ul_lv2 li.active a.active{color:#ee3224;}
 #leftnavigation ul li a:hover{color:#ee3224;width:100%;}
@@ -245,19 +245,19 @@ div.lfr-dock-list-container ul li {background:none;}
 #detailpage #content #web-item #address span.action-date {font-family: Arial,Verdana;font-size: 0.62em;font-weight: bold;}
 #detailpage #content #web-item #address span.action-address {font-family: Arial,Verdana;font-size: 0.62em;color: grey;font-weight: bold;}
 #detailpage #content #web-item #title{margin:0 0 10px 0;}
-#detailpage #content #web-item div.action_date{text-align:center;padding:5px 0 0 0;margin:0 10px 0 0;background:url(../images/clock-gradient.png) no-repeat top left;width:67px;height:76px;}
+#detailpage #content #web-item div.action_date{text-align:center;padding:5px 0 0 0;margin:0 10px 0 0;background:url(images/clock-gradient.png) no-repeat top left;width:67px;height:76px;}
 #detailpage #content #web-item div.action_date span.action_day{text-align:center;display:block;color:#ee3224;font-size:1.5em;font-weight:bold;}
 #detailpage #content #web-item div.action_date span.action_month{color:#ee3224;font-size:0.68em;font-weight:bold;}
-#detailpage #content #web-item #time span.clock {font-size:0.75em;background:url(../images/clock.png) no-repeat left;padding:1px 0 0 16px;color:#333333;font-style:italic;}
+#detailpage #content #web-item #time span.clock {font-size:0.75em;background:url(images/clock.png) no-repeat left;padding:1px 0 0 16px;color:#333333;font-style:italic;}
 #detailpage #content #web-item #content_template img.action-image {float:left;margin: 0 0 15px 15px;margin: 15px 15px 0 0;}
 #detailpage #featurelinks{padding:0px 0 20px 200px;font-size:0.75em;}
 #detailpage #featurelinks #linkscontainer {background-color:white;border-bottom:1px solid #F4F4F4;border-top:1px solid #F4F4F4;display:block;margin:0px 60px 5px 5px;padding:5px 0 7px 5px;}
 #detailpage #featurelinks #linkscontainer #print{float:left;margin:0 50px 0 0;padding-top:5px;}
-#detailpage #featurelinks #linkscontainer #print a {padding:0 0 0 20px;background:url(../images/common/print.png) no-repeat left;padding-top:5px}
+#detailpage #featurelinks #linkscontainer #print a {padding:0 0 0 20px;background:url(images/common/print.png) no-repeat left;padding-top:5px}
 #detailpage #featurelinks #linkscontainer #send{float:left;margin:0 50px 0 0;padding-top:5px;}
-#detailpage #featurelinks #linkscontainer #send a {padding:0 0 0 20px;background:url(../images/mail/unread.png) no-repeat left;}
+#detailpage #featurelinks #linkscontainer #send a {padding:0 0 0 20px;background:url(images/mail/unread.png) no-repeat left;}
 #detailpage #featurelinks #linkscontainer #share{float:left;margin:0 50px 0 0;padding-top:5px;}
-#detailpage #featurelinks #linkscontainer #share a {padding:0 0 0 20px;background:url(../images/sharebtn.png) no-repeat left;}
+#detailpage #featurelinks #linkscontainer #share a {padding:0 0 0 20px;background:url(images/sharebtn.png) no-repeat left;}
 
 /* Fix of list items display (IE related). */
 #content_template ul li {overflow:hidden;font-size:0.75em;line-height:1.25em;}
@@ -277,13 +277,13 @@ div.lfr-dock-list-container ul li {background:none;}
 #breadcrumb-profiles div.labelselect.visiblelabel {visibility:visible;}
 #breadcrumb-profiles .desc { color:#6b6b6b;}
 #breadcrumb-profiles .desc a {color:#0092dd;}
-#breadcrumb-profiles .dropdown {font-size:0.75em;float:right;background:url("../images/profilenav/profielbalk_filler-full.jpg") repeat scroll 0 0 transparent;}
+#breadcrumb-profiles .dropdown {font-size:0.75em;float:right;background:url("images/profilenav/profielbalk_filler-full.jpg") repeat scroll 0 0 transparent;}
 #breadcrumb-profiles .dropdown dd, #breadcrumb-profiles .dropdown dt, #breadcrumb-profiles .dropdown ul { margin:0px; padding:0px; }
 #breadcrumb-profiles .dropdown dd { position:relative;}
 #breadcrumb-profiles .dropdown a, #breadcrumb-profiles .dropdown a:visited { color:#ffffff; text-decoration:none; outline:none;}
 #breadcrumb-profiles .dropdown a:hover { color:#ffffff;}
 #breadcrumb-profiles .dropdown dt a:hover { color:#ffffff;}
-#breadcrumb-profiles .dropdown dt a {background:url(../images/arrow.png) no-repeat scroll right center; display:block; padding-right:20px;}
+#breadcrumb-profiles .dropdown dt a {background:url(images/arrow.png) no-repeat scroll right center; display:block; padding-right:20px;}
 #breadcrumb-profiles .dropdown dt a span {cursor:pointer; display:block; padding:2px;min-width: 10px;}
 #breadcrumb-profiles .dropdown dd ul {z-index:1;height:auto;background:#ee3224 none repeat scroll 0 0; color:#ffffff; display:none;right:0px; padding:5px 0px; position:absolute; top:0px; width:auto; min-width:170px; list-style:none;}
 #breadcrumb-profiles .dropdown span.value { display:none;}
@@ -337,11 +337,11 @@ div.lfr-dock-list-container ul li {background:none;}
 #questionform #abvvwebform div.ctrl-holder input[type="checkbox"] {padding-top: -12px;}
 #questionform #abvvwebform div.ctrl-holder input[type="text"] {padding:2px 0px}
 #questionform #abvvwebform fieldset {background-color: #ffffff;}
-#questionform #print a {padding:0 0 0 20px;background:url(../images/common/print.png) no-repeat left;padding-top:5px;padding-right:10px;font-size:0.8em;}
+#questionform #print a {padding:0 0 0 20px;background:url(images/common/print.png) no-repeat left;padding-top:5px;padding-right:10px;font-size:0.8em;}
 
 /* RSS */
 #rss {margin-top:5px;padding:10px 0px 15px 5px;border-top:1px solid #f4f4f4;border-bottom:1px solid #f4f4f4;}
-#rss a {background:url(../images/common/rss.png) no-repeat left;padding:4px 0 2px 20px;}
+#rss a {background:url(images/common/rss.png) no-repeat left;padding:4px 0 2px 20px;}
 #rss a span {font-size:0.75em;}
 
 /* SEARCHCONTAINER */
