@@ -1,0 +1,38 @@
+/*
+Featured News Item
+*/
+#media-video {
+	height:	225px;
+	width:	300px;
+}
+
+#media-foto {
+	height:	200px;
+	width:	300px;
+}
+
+#featured-title {
+	color: red;
+}
+
+
+
+/*
+Share
+*/
+#a2apage_BROWSER {
+	display:none !important;
+}
+
+#a2apage_EMAIL {
+	display:none !important;
+}
+
+#a2apage_any_email {
+	display:none !important;
+} /* For standard sharing menu */
+
+#a2amail_any_email {
+	display:none !important;
+} /* For the email-only menu */
+
