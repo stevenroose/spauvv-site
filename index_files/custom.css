@@ -1,3 +1,6 @@
+* {
+  font-family: sans-serif;
+}
 @media print
 {
     .no-print, .no-print *
@@ -18,14 +21,14 @@ body{font-family: Arial,Verdana;font-size:0.9em;padding:0px;margin:0px;position:
 #navigation, #footer_container, #content_general{margin-top:10px;position:relative;width:1200px;margin-left:auto;margin-right:auto;}
 #logo_sub_container{position:absolute;top:0;}
 #content_general{position:static;background: url('images/bg-repeat.jpg');width: 1200px;margin-left:auto;margin-right:auto;padding-top:20px;}
-#content_container{width: 980px;margin-left:auto;margin-right:auto;}
+#content_container{width: 1100px;margin-left:auto;margin-right:auto;}
 .portlet {background-color:#ffffff;}
 
 /*** LAYOUT THEMING ***/
 	#layout-grid tr td.empty-column {padding-right:30px;}
-	#abvv-homepage .columns-3 #column-1{width:350px;}
-	#abvv-homepage .columns-3 #column-2{width:310px;}
-	#abvv-homepage .columns-3 #column-3{width:206px;}
+	#abvv-homepage .columns-3 #column-1{width:350px !important;}
+	#abvv-homepage .columns-3 #column-2{width:310px !important;}
+	#abvv-homepage .columns-3 #column-3{width:186px !important;}
 	/* MAIN PAGE LAYOUT */
 	/*
 	#abvv_main {}
