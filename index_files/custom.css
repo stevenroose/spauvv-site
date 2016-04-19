@@ -23,8 +23,8 @@ body{font-family: Arial,Verdana;font-size:0.9em;padding:0px;margin:0px;position:
 
 /*** LAYOUT THEMING ***/
 	#layout-grid tr td.empty-column {padding-right:30px;}
-	#abvv-homepage .columns-3 #column-1{width:394px;}
-	#abvv-homepage .columns-3 #column-2{width:300px;}
+	#abvv-homepage .columns-3 #column-1{width:350px;}
+	#abvv-homepage .columns-3 #column-2{width:310px;}
 	#abvv-homepage .columns-3 #column-3{width:206px;}
 	/* MAIN PAGE LAYOUT */
 	/*
